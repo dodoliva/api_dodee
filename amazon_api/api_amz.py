@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-
+from amazon_api import app
 
 
 @app.route('/', methods=['GET'])
